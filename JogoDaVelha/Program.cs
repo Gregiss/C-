@@ -47,6 +47,63 @@ namespace Projeto
                 int novaJogadaX = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Escreva qual posicao Y queres jogar");
                 int novaJogadaY = Convert.ToInt32(Console.ReadLine());
+                if (novaJogadaX > 3)
+                {
+                    dont = true;
+                    Console.WriteLine("Não podes jogar neste lugar, erro interno");
+                }
+                else if (novaJogadaY > 3)
+                {
+                    dont = true;
+                    Console.WriteLine("Não podes jogar neste lugar, erro interno");
+                }
+                else if (novaJogadaX < 0)
+                {
+                    dont = true;
+                    Console.WriteLine("Não podes jogar neste lugar, erro interno");
+                }
+                else if (novaJogadaY < 0)
+                {
+                    dont = true;
+                    Console.WriteLine("Não podes jogar neste lugar, erro interno");
+                }
+                else
+                {
+                    dont = false;
+                }
+
+                while (dont)
+                {
+                    Console.WriteLine("\nEscreva qual posicao X queres jogar");
+                    novaJogadaX = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Escreva qual posicao Y queres jogar");
+                    novaJogadaY = Convert.ToInt32(Console.ReadLine());
+                    if (novaJogadaX > 3)
+                    {
+                        dont = true;
+                        Console.WriteLine("Não podes jogar neste lugar, erro interno");
+                    }
+                    else if (novaJogadaY > 3)
+                    {
+                        dont = true;
+                        Console.WriteLine("Não podes jogar neste lugar, erro interno");
+                    }
+                    else if (novaJogadaX < 0)
+                    {
+                        dont = true;
+                        Console.WriteLine("Não podes jogar neste lugar, erro interno");
+                    }
+                    else if (novaJogadaY < 0)
+                    {
+                        dont = true;
+                        Console.WriteLine("Não podes jogar neste lugar, erro interno");
+                    }
+                    else
+                    {
+                        dont = false;
+                    }
+                }
+                   
                 if (vez == 0)
                 {
                     vez = 1;
