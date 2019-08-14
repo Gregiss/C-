@@ -14,6 +14,7 @@ namespace Projeto
             bool comecou = true;
             int[,] matriz = new int[3, 3];
             bool dont = false;
+            int jogadas = 0;
 
             //Prenche a matriz
             for (int i = 0; i < 3; i++)
@@ -124,6 +125,7 @@ namespace Projeto
                 }
                 else
                 {
+                    jogadas++;
                     dont = false;
                 }
                 while (dont)
@@ -276,6 +278,13 @@ namespace Projeto
                         else if (matriz[0, 2] == 1 && matriz[0, 1] == 1 && matriz[2, 0] == 1)
                         {
                             Console.WriteLine("X ganhou");
+                            comecou = false;
+                            break;
+                        }
+                        if(jogadas == 9)
+                        {
+                            Console.WriteLine("Deu velha");
+                            Console.ReadLine();
                             comecou = false;
                             break;
                         }
