@@ -187,120 +187,537 @@ namespace Projeto
                         if (matriz[0, 0] == 0 && matriz[0, 1] == 0 && matriz[0, 2] == 0)
                         {
                             Console.WriteLine("O ganhou");
-                            comecou = false;
+                            Console.WriteLine("Clique enter para jogar novamante");
+                            for (int b = 0; b < 3; b++)
+                            {
+                                for (int h = 0; h < 3; h++)
+                                {
+                                    matriz[b, h] = -1;
+                                }
+                            }
                             Console.ReadLine();
+                            for (int t = 0; t < 9; t++)
+                            {
+                                if (t == 2)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else if (t == 5)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else
+                                {
+                                    Console.Write(" - ");
+                                }
+                            }
                             break;
                         }
                         else if (matriz[1, 0] == 0 && matriz[1, 1] == 0 && matriz[1, 2] == 0)
                         {
                             Console.WriteLine("O ganhou");
-                            comecou = false;
+                            Console.WriteLine("Clique enter para jogar novamante");
+                            for (int b = 0; b < 3; b++)
+                            {
+                                for (int h = 0; h < 3; h++)
+                                {
+                                    matriz[b, h] = -1;
+                                }
+                            }
                             Console.ReadLine();
+                            for (int t = 0; t < 9; t++)
+                            {
+                                if (t == 2)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else if (t == 5)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else
+                                {
+                                    Console.Write(" - ");
+                                }
+                            }
                             break;
                         }
                         else if (matriz[2, 0] == 0 && matriz[2, 1] == 0 && matriz[2, 2] == 0)
                         {
                             Console.WriteLine("O ganhou");
-                            comecou = false;
+                            Console.WriteLine("Clique enter para jogar novamante");
+                            for (int b = 0; b < 3; b++)
+                            {
+                                for (int h = 0; h < 3; h++)
+                                {
+                                    matriz[b, h] = -1;
+                                }
+                            }
                             Console.ReadLine();
+                            for (int t = 0; t < 9; t++)
+                            {
+                                if (t == 2)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else if (t == 5)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else
+                                {
+                                    Console.Write(" - ");
+                                }
+                            }
                             break;
                         }
                         else if (matriz[0, 0] == 0 && matriz[1, 0] == 0 && matriz[2, 0] == 0)
                         {
                             Console.WriteLine("O ganhou");
-                            comecou = false;
+                            Console.WriteLine("Clique enter para jogar novamante");
+                            for (int b = 0; b < 3; b++)
+                            {
+                                for (int h = 0; h < 3; h++)
+                                {
+                                    matriz[b, h] = -1;
+                                }
+                            }
                             Console.ReadLine();
+                            for (int t = 0; t < 9; t++)
+                            {
+                                if (t == 2)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else if (t == 5)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else
+                                {
+                                    Console.Write(" - ");
+                                }
+                            }
+                            break;
+                        }
+                        else if (matriz[0, 0] == 0 && matriz[1, 1] == 0 && matriz[2, 2] == 0)
+                        {
+                            Console.WriteLine("O ganhou");
+                            Console.WriteLine("Clique enter para jogar novamante");
+                            for (int b = 0; b < 3; b++)
+                            {
+                                for (int h = 0; h < 3; h++)
+                                {
+                                    matriz[b, h] = -1;
+                                }
+                            }
+                            Console.ReadLine();
+                            for (int t = 0; t < 9; t++)
+                            {
+                                if (t == 2)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else if (t == 5)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else
+                                {
+                                    Console.Write(" - ");
+                                }
+                            }
+                            break;
+                        }
+                        else if (matriz[0, 0] == 1 && matriz[1, 1] == 1 && matriz[2, 2] == 1)
+                        {
+                            Console.WriteLine("X ganhou");
+                            Console.WriteLine("Clique enter para jogar novamante");
+                            for (int b = 0; b < 3; b++)
+                            {
+                                for (int h = 0; h < 3; h++)
+                                {
+                                    matriz[b, h] = -1;
+                                }
+                            }
+                            Console.ReadLine();
+                            for (int t = 0; t < 9; t++)
+                            {
+                                if (t == 2)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else if (t == 5)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else
+                                {
+                                    Console.Write(" - ");
+                                }
+                            }
                             break;
                         }
                         else if (matriz[0, 1] == 0 && matriz[1, 1] == 0 && matriz[2, 1] == 0)
                         {
                             Console.WriteLine("O ganhou");
-                            comecou = false;
+                            Console.WriteLine("Clique enter para jogar novamante");
+                            for (int b = 0; b < 3; b++)
+                            {
+                                for (int h = 0; h < 3; h++)
+                                {
+                                    matriz[b, h] = -1;
+                                }
+                            }
                             Console.ReadLine();
+                            for (int t = 0; t < 9; t++)
+                            {
+                                if (t == 2)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else if (t == 5)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else
+                                {
+                                    Console.Write(" - ");
+                                }
+                            }
                             break;
                         }
                         else if (matriz[0, 2] == 0 && matriz[1, 2] == 0 && matriz[2, 2] == 0)
                         {
                             Console.WriteLine("O ganhou");
-                            comecou = false;
+                            Console.WriteLine("Clique enter para jogar novamante");
+                            for (int b = 0; b < 3; b++)
+                            {
+                                for (int h = 0; h < 3; h++)
+                                {
+                                    matriz[b, h] = -1;
+                                }
+                            }
+                            for (int t = 0; t < 9; t++)
+                            {
+                                if (t == 2)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else if (t == 5)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else
+                                {
+                                    Console.Write(" - ");
+                                }
+                            }
                             break;
                         }
                         else if (matriz[0, 1] == 0 && matriz[1, 1] == 0 && matriz[2, 2] == 0)
                         {
                             Console.WriteLine("O ganhou");
-                            comecou = false;
+                            Console.WriteLine("Clique enter para jogar novamante");
+                            for (int b = 0; b < 3; b++)
+                            {
+                                for (int h = 0; h < 3; h++)
+                                {
+                                    matriz[b, h] = -1;
+                                }
+                            }
                             Console.ReadLine();
+                            for (int t = 0; t < 9; t++)
+                            {
+                                if (t == 2)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else if (t == 5)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else
+                                {
+                                    Console.Write(" - ");
+                                }
+                            }
                             break;
                         }
                         else if (matriz[0, 2] == 0 && matriz[0, 1] == 0 && matriz[2, 0] == 0)
                         {
                             Console.WriteLine("O ganhou");
-                            comecou = false;
+                            Console.WriteLine("Clique enter para jogar novamante");
+                            for (int b = 0; b < 3; b++)
+                            {
+                                for (int h = 0; h < 3; h++)
+                                {
+                                    matriz[b, h] = -1;
+                                }
+                            }
                             Console.ReadLine();
+                            for (int t = 0; t < 9; t++)
+                            {
+                                if (t == 2)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else if (t == 5)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else
+                                {
+                                    Console.Write(" - ");
+                                }
+                            }
                             break;
                         }
                         //verifica x
                         if (matriz[0, 0] == 1 && matriz[0, 1] == 1 && matriz[0, 2] == 1)
                         {
                             Console.WriteLine("X ganhou");
-                            comecou = false;
+                            Console.WriteLine("Clique enter para jogar novamante");
+                            for (int b = 0; b < 3; b++)
+                            {
+                                for (int h = 0; h < 3; h++)
+                                {
+                                    matriz[b, h] = -1;
+                                }
+                            }
                             Console.ReadLine();
+                            for (int t = 0; t < 9; t++)
+                            {
+                                if (t == 2)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else if (t == 5)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else
+                                {
+                                    Console.Write(" - ");
+                                }
+                            }
                             break;
                         }
                         else if (matriz[1, 0] == 1 && matriz[1, 1] == 1 && matriz[1, 2] == 1)
                         {
                             Console.WriteLine("X ganhou");
-                            comecou = false;
+                            Console.WriteLine("Clique enter para jogar novamante");
+                            for (int b = 0; b < 3; b++)
+                            {
+                                for (int h = 0; h < 3; h++)
+                                {
+                                    matriz[b, h] = -1;
+                                }
+                            }
                             Console.ReadLine();
+                            for (int t = 0; t < 9; t++)
+                            {
+                                if (t == 2)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else if (t == 5)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else
+                                {
+                                    Console.Write(" - ");
+                                }
+                            }
                             break;
                         }
                         else if (matriz[2, 0] == 1 && matriz[2, 1] == 1 && matriz[2, 2] == 1)
                         {
                             Console.WriteLine("X ganhou");
-                            comecou = false;
+                            Console.WriteLine("Clique enter para jogar novamante");
+                            for (int b = 0; b < 3; b++)
+                            {
+                                for (int h = 0; h < 3; h++)
+                                {
+                                    matriz[b, h] = -1;
+                                }
+                            }
                             Console.ReadLine();
                             break;
                         }
                         else if (matriz[0, 0] == 1 && matriz[1, 0] == 1 && matriz[2, 0] == 1)
                         {
                             Console.WriteLine("X ganhou");
-                            comecou = false;
+                            Console.WriteLine("Clique enter para jogar novamante");
+                            for (int b = 0; b < 3; b++)
+                            {
+                                for (int h = 0; h < 3; h++)
+                                {
+                                    matriz[b, h] = -1;
+                                }
+                            }
                             Console.ReadLine();
+                            for (int t = 0; t < 9; t++)
+                            {
+                                if (t == 2)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else if (t == 5)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else
+                                {
+                                    Console.Write(" - ");
+                                }
+                            }
                             break;
                         }
                         else if (matriz[0, 1] == 1 && matriz[1, 1] == 1 && matriz[2, 1] == 1)
                         {
                             Console.WriteLine("X ganhou");
-                            comecou = false;
+                            Console.WriteLine("Clique enter para jogar novamante");
+                            for (int b = 0; b < 3; b++)
+                            {
+                                for (int h = 0; h < 3; h++)
+                                {
+                                    matriz[b, h] = -1;
+                                }
+                            }
                             Console.ReadLine();
+                            for (int t = 0; t < 9; t++)
+                            {
+                                if (t == 2)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else if (t == 5)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else
+                                {
+                                    Console.Write(" - ");
+                                }
+                            }
                             break;
                         }
                         else if (matriz[0, 2] == 1 && matriz[1, 2] == 1 && matriz[2, 2] == 1)
                         {
                             Console.WriteLine("X ganhou");
-                            comecou = false;
+                            Console.WriteLine("Clique enter para jogar novamante");
+                            for (int b = 0; b < 3; b++)
+                            {
+                                for (int h = 0; h < 3; h++)
+                                {
+                                    matriz[b, h] = -1;
+                                }
+                            }
                             Console.ReadLine();
+                            for (int t = 0; t < 9; t++)
+                            {
+                                if (t == 2)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else if (t == 5)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else
+                                {
+                                    Console.Write(" - ");
+                                }
+                            }
                             break;
                         }
                         else if (matriz[0, 1] == 1 && matriz[1, 1] == 1 && matriz[2, 2] == 1)
                         {
                             Console.WriteLine("X ganhou");
-                            comecou = false;
+                            Console.WriteLine("Clique enter para jogar novamante");
+                            for (int b = 0; b < 3; b++)
+                            {
+                                for (int h = 0; h < 3; h++)
+                                {
+                                    matriz[b, h] = -1;
+                                }
+                            }
                             Console.ReadLine();
+                            for (int t = 0; t < 9; t++)
+                            {
+                                if (t == 2)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else if (t == 5)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else
+                                {
+                                    Console.Write(" - ");
+                                }
+                            }
                             break;
                         }
                         else if (matriz[0, 2] == 1 && matriz[0, 1] == 1 && matriz[2, 0] == 1)
                         {
                             Console.WriteLine("X ganhou");
-                            comecou = false;
+                            Console.WriteLine("Clique enter para jogar novamante");
+                            for (int b = 0; b < 3; b++)
+                            {
+                                for (int h = 0; h < 3; h++)
+                                {
+                                    matriz[b, h] = -1;
+                                }
+                            }
                             Console.ReadLine();
+                            for (int t = 0; t < 9; t++)
+                            {
+                                if (t == 2)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else if (t == 5)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else
+                                {
+                                    Console.Write(" - ");
+                                }
+                            }
                             break;
                         }
                         if(jogadas == 9)
                         {
                             Console.WriteLine("Deu velha");
+                            Console.WriteLine("Clique enter para jogar novamante");
+                            for (int b = 0; b < 3; b++)
+                            {
+                                for (int h = 0; h < 3; h++)
+                                {
+                                    matriz[b, h] = -1;
+                                }
+                            }
                             Console.ReadLine();
-                            comecou = false;
+                            for (int t = 0; t < 9; t++)
+                            {
+                                if (t == 2)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else if (t == 5)
+                                {
+                                    Console.Write(" - \n");
+                                }
+                                else
+                                {
+                                    Console.Write(" - ");
+                                }
+                            }
                             break;
 
                         }
