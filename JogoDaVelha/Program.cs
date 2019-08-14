@@ -188,30 +188,35 @@ namespace Projeto
                         {
                             Console.WriteLine("O ganhou");
                             comecou = false;
+                            Console.ReadLine();
                             break;
                         }
                         else if (matriz[1, 0] == 0 && matriz[1, 1] == 0 && matriz[1, 2] == 0)
                         {
                             Console.WriteLine("O ganhou");
                             comecou = false;
+                            Console.ReadLine();
                             break;
                         }
                         else if (matriz[2, 0] == 0 && matriz[2, 1] == 0 && matriz[2, 2] == 0)
                         {
                             Console.WriteLine("O ganhou");
                             comecou = false;
+                            Console.ReadLine();
                             break;
                         }
                         else if (matriz[0, 0] == 0 && matriz[1, 0] == 0 && matriz[2, 0] == 0)
                         {
                             Console.WriteLine("O ganhou");
                             comecou = false;
+                            Console.ReadLine();
                             break;
                         }
                         else if (matriz[0, 1] == 0 && matriz[1, 1] == 0 && matriz[2, 1] == 0)
                         {
                             Console.WriteLine("O ganhou");
                             comecou = false;
+                            Console.ReadLine();
                             break;
                         }
                         else if (matriz[0, 2] == 0 && matriz[1, 2] == 0 && matriz[2, 2] == 0)
@@ -224,12 +229,14 @@ namespace Projeto
                         {
                             Console.WriteLine("O ganhou");
                             comecou = false;
+                            Console.ReadLine();
                             break;
                         }
                         else if (matriz[0, 2] == 0 && matriz[0, 1] == 0 && matriz[2, 0] == 0)
                         {
                             Console.WriteLine("O ganhou");
                             comecou = false;
+                            Console.ReadLine();
                             break;
                         }
                         //verifica x
@@ -237,48 +244,56 @@ namespace Projeto
                         {
                             Console.WriteLine("X ganhou");
                             comecou = false;
+                            Console.ReadLine();
                             break;
                         }
                         else if (matriz[1, 0] == 1 && matriz[1, 1] == 1 && matriz[1, 2] == 1)
                         {
                             Console.WriteLine("X ganhou");
                             comecou = false;
+                            Console.ReadLine();
                             break;
                         }
                         else if (matriz[2, 0] == 1 && matriz[2, 1] == 1 && matriz[2, 2] == 1)
                         {
                             Console.WriteLine("X ganhou");
                             comecou = false;
+                            Console.ReadLine();
                             break;
                         }
                         else if (matriz[0, 0] == 1 && matriz[1, 0] == 1 && matriz[2, 0] == 1)
                         {
                             Console.WriteLine("X ganhou");
                             comecou = false;
+                            Console.ReadLine();
                             break;
                         }
                         else if (matriz[0, 1] == 1 && matriz[1, 1] == 1 && matriz[2, 1] == 1)
                         {
                             Console.WriteLine("X ganhou");
                             comecou = false;
+                            Console.ReadLine();
                             break;
                         }
                         else if (matriz[0, 2] == 1 && matriz[1, 2] == 1 && matriz[2, 2] == 1)
                         {
                             Console.WriteLine("X ganhou");
                             comecou = false;
+                            Console.ReadLine();
                             break;
                         }
                         else if (matriz[0, 1] == 1 && matriz[1, 1] == 1 && matriz[2, 2] == 1)
                         {
                             Console.WriteLine("X ganhou");
                             comecou = false;
+                            Console.ReadLine();
                             break;
                         }
                         else if (matriz[0, 2] == 1 && matriz[0, 1] == 1 && matriz[2, 0] == 1)
                         {
                             Console.WriteLine("X ganhou");
                             comecou = false;
+                            Console.ReadLine();
                             break;
                         }
                         if(jogadas == 9)
@@ -287,10 +302,14 @@ namespace Projeto
                             Console.ReadLine();
                             comecou = false;
                             break;
+
                         }
                     }
                 }
             }
             }
     }
+
 }
+
+
