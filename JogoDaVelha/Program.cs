@@ -75,14 +75,6 @@ namespace Projeto
                     novaJogadaX = Convert.ToInt32(Console.ReadLine());
                     Console.WriteLine("Escreva qual posicao Y queres jogar");
                     novaJogadaY = Convert.ToInt32(Console.ReadLine());
-                    if (vez == 0)
-                    {
-                        vez = 1;
-                    }
-                    else
-                    {
-                        vez = 0;
-                    }
                     if (matriz[novaJogadaX, novaJogadaY] == 0)
                     {
                         Console.WriteLine("Não podes jogar aqui");
