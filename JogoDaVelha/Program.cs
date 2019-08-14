@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JogoDaVelha
+namespace Projeto
 {
     class Program
     {
@@ -12,7 +12,8 @@ namespace JogoDaVelha
         {
             int vez = -1;
             bool comecou = true;
-            int[,] matriz = new int[3 , 3];
+            int[,] matriz = new int[3, 3];
+            bool dont = false;
 
             //Prenche a matriz
             for (int i = 0; i < 3; i++)
@@ -23,14 +24,15 @@ namespace JogoDaVelha
                 }
             }
 
-                    String quem = "0";
+            String quem = "0";
             //Cria a matriz
-            for(int i = 0; i < 9; i++)
+            for (int i = 0; i < 9; i++)
             {
-                if( i == 2)
+                if (i == 2)
                 {
                     Console.Write(" - \n");
-                } else if (i == 5)
+                }
+                else if (i == 5)
                 {
                     Console.Write(" - \n");
                 }
@@ -52,6 +54,49 @@ namespace JogoDaVelha
                 else
                 {
                     vez = 0;
+                }
+                if(matriz[novaJogadaX, novaJogadaY] == 0)
+                {
+                    Console.WriteLine("Não podes jogar aqui");
+                    dont = true;
+                }
+                else if (matriz[novaJogadaX, novaJogadaY] == 1)
+                {
+                    Console.WriteLine("Não podes jogar aqui");
+                    dont = true;
+                }
+                else
+                {
+                    dont = false;
+                }
+                while (dont)
+                {
+                    Console.WriteLine("\nEscreva qual posicao X queres jogar");
+                    novaJogadaX = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Escreva qual posicao Y queres jogar");
+                    novaJogadaY = Convert.ToInt32(Console.ReadLine());
+                    if (vez == 0)
+                    {
+                        vez = 1;
+                    }
+                    else
+                    {
+                        vez = 0;
+                    }
+                    if (matriz[novaJogadaX, novaJogadaY] == 0)
+                    {
+                        Console.WriteLine("Não podes jogar aqui");
+                        dont = true;
+                    }
+                    else if (matriz[novaJogadaX, novaJogadaY] == 1)
+                    {
+                        Console.WriteLine("Não podes jogar aqui");
+                        dont = true;
+                    }
+                    else
+                    {
+                        dont = false;
+                    }
                 }
                 matriz[novaJogadaX, novaJogadaY] = vez;
                 for (int i = 0; i < 3; i++)
@@ -188,8 +233,6 @@ namespace JogoDaVelha
                     }
                 }
             }
-            
-            Console.ReadLine();
-        }
+            }
     }
 }
