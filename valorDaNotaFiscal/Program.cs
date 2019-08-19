@@ -27,7 +27,7 @@ namespace valorDaNotaFiscal
                 {
                     imposto = 2.8;
                 }
-                else if (valor >= 7000)
+                else
                 {
                     imposto = 3;
                 }
