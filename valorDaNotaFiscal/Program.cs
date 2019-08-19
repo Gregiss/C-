@@ -17,23 +17,23 @@ namespace valorDaNotaFiscal
                 valor = Convert.ToDouble(Console.ReadLine());
                 if (valor < 999)
                 {
-                    imposto = 0.02;
+                    imposto = 2;
                 }
                 else if (valor >= 1000 && valor <= 2999)
                 {
-                    imposto = 0.025;
+                    imposto = 2.5;
                 }
                 else if (valor >= 3000 && valor <= 6999)
                 {
-                    imposto = 0.028;
+                    imposto = 2.8;
                 }
                 else if (valor >= 7000)
                 {
-                    imposto = 0.03;
+                    imposto = 3;
                 }
 
-                valorDaNotaFiscal = valor * imposto;
-                Console.WriteLine("O imposto é de " + imposto + "\nValor com imposto é de " + valorDaNotaFiscal);
+                valorDaNotaFiscal = valor * (imposto / 100);
+                Console.WriteLine("A taxa é de " + imposto * 100 +"%\n"+"Valor do imposto é de " + valorDaNotaFiscal);
             }
             }
     }
