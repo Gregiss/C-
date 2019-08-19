@@ -1,0 +1,6 @@
+C:\Users\a\Documents\c#\c-\valorDaNotaFiscal\bin\Debug\valorDaNotaFiscal.exe.config
+C:\Users\a\Documents\c#\c-\valorDaNotaFiscal\bin\Debug\valorDaNotaFiscal.exe
+C:\Users\a\Documents\c#\c-\valorDaNotaFiscal\bin\Debug\valorDaNotaFiscal.pdb
+C:\Users\a\Documents\c#\c-\valorDaNotaFiscal\obj\Debug\valorDaNotaFiscal.csproj.CoreCompileInputs.cache
+C:\Users\a\Documents\c#\c-\valorDaNotaFiscal\obj\Debug\valorDaNotaFiscal.exe
+C:\Users\a\Documents\c#\c-\valorDaNotaFiscal\obj\Debug\valorDaNotaFiscal.pdb
