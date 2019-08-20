@@ -1,0 +1,6 @@
+C:\Users\a\Documents\c#\c-\exericio6\obj\Debug\exericio6.csproj.CoreCompileInputs.cache
+C:\Users\a\Documents\c#\c-\exericio6\bin\Debug\exericio6.exe.config
+C:\Users\a\Documents\c#\c-\exericio6\bin\Debug\exericio6.exe
+C:\Users\a\Documents\c#\c-\exericio6\bin\Debug\exericio6.pdb
+C:\Users\a\Documents\c#\c-\exericio6\obj\Debug\exericio6.exe
+C:\Users\a\Documents\c#\c-\exericio6\obj\Debug\exericio6.pdb

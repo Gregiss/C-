@@ -1,0 +1,6 @@
+C:\Users\a\Documents\c#\c-\disiveis\bin\Debug\disiveis.exe.config
+C:\Users\a\Documents\c#\c-\disiveis\bin\Debug\disiveis.exe
+C:\Users\a\Documents\c#\c-\disiveis\bin\Debug\disiveis.pdb
+C:\Users\a\Documents\c#\c-\disiveis\obj\Debug\disiveis.csproj.CoreCompileInputs.cache
+C:\Users\a\Documents\c#\c-\disiveis\obj\Debug\disiveis.exe
+C:\Users\a\Documents\c#\c-\disiveis\obj\Debug\disiveis.pdb
