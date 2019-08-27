@@ -25,7 +25,7 @@ namespace bancoa
                 objCliente.setCode(i);
                 Console.WriteLine(objCliente.getCode() + ": " + objCliente.getNome() + " nasceu em " + objCliente.getDataNasc() + ", tem " + objCliente.getIdade() + " anos \nCPF: " + objCliente.getCpf() + "\nRG: " + objCliente.getRg());
             }
-            for (int i = 0; i < 8; i++)
+                for (int i = 0; i < 8; i++)
             {
                 cardCredit newCard = new cardCredit();
                 Console.WriteLine("Qual o numero do cartão?");
@@ -42,7 +42,11 @@ namespace bancoa
                 Agencia age = new Agencia();
                 Console.WriteLine("Qual o agencia?");
                 age.setAgencia(Console.ReadLine());
-                Console.WriteLine(age.getAgencia());
+                Console.WriteLine("Qual a conta?");
+                age.setConta(Console.ReadLine());
+                Console.WriteLine("Qual o numero?");
+                age.setNumero(Console.ReadLine());
+                Console.WriteLine("Agencia "+age.getAgencia() + "\nConta " + age.getConta() + "\nNumero " + age.getNumero());
             }
 
             Console.ReadLine();

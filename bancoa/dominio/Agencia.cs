@@ -9,6 +9,8 @@ namespace bancoa.dominio
     class Agencia
     {
         String agencia;
+        String conta;
+        String numero;
         public void setAgencia(String agencia)
         {
             string texto = agencia;
@@ -39,9 +41,29 @@ namespace bancoa.dominio
             }
         }
 
+        public void setConta(String conta)
+        {
+            this.conta = conta;
+        }
+
+        public void setNumero(String numero)
+        {
+            this.numero = numero;
+        }
+
         public String getAgencia()
         {
             return this.agencia;
+        }
+
+        public String getNumero()
+        {
+            return this.numero;
+        }
+
+        public String getConta()
+        {
+            return this.conta;
         }
 
     }
