@@ -1,0 +1,14 @@
+C:\Users\a\source\repos\bancoa\bancoa\bin\Debug\bancoa.exe.config
+C:\Users\a\source\repos\bancoa\bancoa\bin\Debug\bancoa.exe
+C:\Users\a\source\repos\bancoa\bancoa\bin\Debug\bancoa.pdb
+C:\Users\a\source\repos\bancoa\bancoa\obj\Debug\bancoa.csproj.CoreCompileInputs.cache
+C:\Users\a\source\repos\bancoa\bancoa\obj\Debug\bancoa.exe
+C:\Users\a\source\repos\bancoa\bancoa\obj\Debug\bancoa.pdb
+C:\Users\a\source\repos\bancoa\bancoa\obj\Debug\bancoa.csprojAssemblyReference.cache
+C:\Users\a\Desktop\bancoa\bin\Debug\bancoa.exe.config
+C:\Users\a\Desktop\bancoa\bin\Debug\bancoa.exe
+C:\Users\a\Desktop\bancoa\bin\Debug\bancoa.pdb
+C:\Users\a\Desktop\bancoa\obj\Debug\bancoa.csprojAssemblyReference.cache
+C:\Users\a\Desktop\bancoa\obj\Debug\bancoa.csproj.CoreCompileInputs.cache
+C:\Users\a\Desktop\bancoa\obj\Debug\bancoa.exe
+C:\Users\a\Desktop\bancoa\obj\Debug\bancoa.pdb
